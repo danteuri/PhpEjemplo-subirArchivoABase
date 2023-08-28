@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: 120px;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(68, 66, 66);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(71, 69, 69);
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+.menu a:hover{
+    border: 1px solid rgb(56, 55, 55);
+    background-color: rgb(75, 90, 85);
+    color: white;
+    border-radius: 10px;
+}
