@@ -13,10 +13,10 @@ include 'menu.php';
 
 <div class="container">
 	<h3 class="altaTitulo">FORMULARIO DE MODIFICACION</h3>
-	<form class="altaInput" action="modificacion.php" method="POST" >
+	<form class="altaInput" action="modificacion.php" method="POST" enctype="multipart/form-data">
 	<div class="grupoInputs">
-		<label for="apellido">Campo Clave Apellido:</label>
-		<input type="text" name="apellido"><br>	
+		<label for="id">Campo Clave ID:</label>
+		<input type="text" name="id"><br>	
     </div>
 
 		<br><br>
@@ -27,14 +27,25 @@ include 'menu.php';
 		<input type="text" name="nombre"><br>
 	    </div>
 
+		<div>
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido">
+		</div>
+
 		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
 		<input type="text" name="edad"><br>
 	    </div>
 
+		<div class="grupoInputs">
+		<label for="foto">Archivo</label>
+		<input type="file" name="foto"><br>
+	    </div>
+
 		<div class="btn-submit">
 		<input type="submit" value="Modificar"><br>
 	    </div>
+
 	</form>
 </div>
 	
