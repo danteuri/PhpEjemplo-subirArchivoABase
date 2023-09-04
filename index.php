@@ -1,32 +1,3 @@
-<?php
-if (isset($_GET['page'])) {
-    $page = $_GET['page'];
-    $allowed_pages = [
-        'altas',
-        'bajas',
-        'form-altas',
-        'form-bajas',
-        'form-modificacion',
-        'listar',
-        'menu',
-        'modificacion'
-    ];
-
-    if (in_array($page, $allowed_pages)) {
-        $php_file = "php/$page.php";
-        if (file_exists($php_file)) {
-            include $php_file;
-        } else {
-            echo "Archivo no encontrado.";
-        }
-    } else {
-        echo "Acceso no autorizado.";
-    }
-} else {
-    echo "Página de inicio";
-}
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -41,10 +12,10 @@ if (isset($_GET['page'])) {
 
         <div class="menu">       
 
-        <a href="?page=form-altas">Alta</a><br>
-        <a href="?page=form-bajas">Bajas</a><br>
-        <a href="?page=form-modificacion">Modificaciones</a><br>
-        <a href="?page=listar">Listado de personas</a><br>
+        <a href="code.php/form-altas.php">Alta</a><br>
+        <a href="code.php/form-bajas.php">Bajas</a><br>
+        <a href="code.php/form-modificacion.php">Modificaciones</a><br>
+        <a href="code.php/listar.php">Listado de personas</a><br>
 
 
         </div>

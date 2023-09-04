@@ -1,5 +1,8 @@
 
 <html lang="es">
+	<head>
+	<link rel="stylesheet" href="../css/menu.css">
+	</head>
 </html>
 
 

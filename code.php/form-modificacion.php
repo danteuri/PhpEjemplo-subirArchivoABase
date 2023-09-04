@@ -8,6 +8,7 @@ include '../code.php/menu.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario de Modificacion</title>
 	<link rel="stylesheet" href="formAltas.css">
+	<link rel="stylesheet" href="../css/menu.css">
 </head>
 <body>
 

@@ -1,14 +1,14 @@
 
 <html lang="es">
 	<head>
-	<link rel="stylesheet" href="css/altabajamodificacion.css">
+	<link rel="stylesheet" href="../css/menu.css">
 	</head>
 </html>
 
 
 <?php 
 
-include 'index.php';
+include '../index.php';
 
 $ape = $_POST['apellido'];
 $nom = $_POST['nombre'];
