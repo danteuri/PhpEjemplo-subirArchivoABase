@@ -1,5 +1,5 @@
 <?php
-include 'menu.php'
+include 'index.php'
 ?>
 <!DOCTYPE html>
 <html lang="es">
