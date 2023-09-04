@@ -7,7 +7,7 @@ include '../code.php/menu.php';
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario de Bajas</title>
-	<link rel="stylesheet" href="css/formAltas.css">
+	<link rel="stylesheet" href="formAltas.css">
 </head>
 <body>
 

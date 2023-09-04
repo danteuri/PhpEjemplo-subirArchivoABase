@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Menu general</title>
-	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
 	<div class="header">
@@ -12,10 +12,10 @@
 	
 	<div class="menu">		
 	
-	<a href="forms/form-altas.php">Alta</a><br>
-	<a href="forms/form-bajas.php">Bajas</a><br>
-	<a href="forms/form-modificacion.php">Modificaciones</a><br>
-	<a href="../code.php/modificacion.php">Listado de personas</a><br>
+	<a href="form-altas.php">Alta</a><br>
+	<a href="form-bajas.php">Bajas</a><br>
+	<a href="form-modificacion.php">Modificaciones</a><br>
+	<a href="modificacion.php">Listado de personas</a><br>
 
 	</div>
 	</div>

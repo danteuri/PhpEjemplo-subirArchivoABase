@@ -5,7 +5,7 @@
 
 <?php 
 
-include 'menu.php';
+include 'index.php';
 
 
 $ape = $_POST['apellido'];
