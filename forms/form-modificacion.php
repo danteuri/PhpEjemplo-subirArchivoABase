@@ -1,5 +1,5 @@
 <?php
-include 'menu.php';
+include '../menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -13,7 +13,7 @@ include 'menu.php';
 
 <div class="container">
 	<h3 class="altaTitulo">FORMULARIO DE MODIFICACION</h3>
-	<form class="altaInput" action="modificacion.php" method="POST" enctype="multipart/form-data">
+	<form class="altaInput" action="../code.php/modificacion.php" method="POST" enctype="multipart/form-data">
 	<div class="grupoInputs">
 		<label for="id">Campo Clave ID:</label>
 		<input type="text" name="id"><br>	

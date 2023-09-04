@@ -12,9 +12,9 @@
 	
 	<div class="menu">		
 	
-	<a href="form-altas.php">Alta</a><br>
-	<a href="form-bajas.php">Bajas</a><br>
-	<a href="form-modificacion.php">Modificaciones</a><br>
+	<a href="../forms/form-altas.php">Alta</a><br>
+	<a href="../forms/form-bajas.php">Bajas</a><br>
+	<a href="../forms/form-modificacion.php">Modificaciones</a><br>
 	<a href="listar.php">Listado de personas</a><br>
 
 	</div>

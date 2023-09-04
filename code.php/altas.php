@@ -1,7 +1,7 @@
 
 <html lang="es">
 	<head>
-	<link rel="stylesheet" href="css/altaBajaModificacion.css">
+	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
 	</head>
 </html>
 
