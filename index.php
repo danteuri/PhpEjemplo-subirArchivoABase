@@ -1,8 +1,4 @@
-<html lang="es">
-	<head>
-	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
-	</head>
-</html>
 <?php
+include '../PhpEjemplo-subirArchivoABase/code.php/menu.php';
 
 ?>

@@ -53,7 +53,7 @@ if($resultado){
 	<title>Document</title>
 </head>
 <body>
-	<a href="form-modificacion.php">Volver</a>
+	<a href="../forms/form-modificacion.php">Volver</a>
 	
 </body>
 </html>
