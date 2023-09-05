@@ -1,9 +1,4 @@
 
-<html lang="es">
-	<head>
-	<link rel="stylesheet" href="../css/menu.css">
-	</head>
-</html>
 
 
 <?php 
@@ -46,3 +41,8 @@ else
 print "No se puede subir el archivo";
 
  ?>
+<html lang="es">
+	<head>
+	<link rel="stylesheet" href="../css/menu.css">
+	</head>
+</html>

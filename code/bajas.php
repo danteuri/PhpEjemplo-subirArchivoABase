@@ -8,7 +8,7 @@
 
 <?php 
 
-include 'index.php';
+include '../index.php';
 
 
 $ape = $_POST['apellido'];
