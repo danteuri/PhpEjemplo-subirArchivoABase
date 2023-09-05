@@ -14,7 +14,7 @@ include '../code/menu.php';
 
 <div class="container">
 	<h3 class="altaTitulo" style="text-align: center;">FORMULARIO DE BAJA</h3>
-	<form class="altaInput" action="../code.php/bajas.php" method="POST" >
+	<form class="altaInput" action="../code/bajas.php" method="POST" >
 	    <div class="grupoInputs">
 		<label for="apellido">Apellido:</label>
         <input type="text" name="apellido"><br>	

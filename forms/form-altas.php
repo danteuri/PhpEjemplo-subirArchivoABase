@@ -15,15 +15,15 @@ include '../code/menu.php';
 	<form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
 
 		<div class="grupoInputs">
-		<label for="apellido">Apellido:</label>
-		<input type="text" name="apellido"><br>
-		</div>
-		
-		<div class="grupoInputs">
 		<label for="nombre">Nombre:</label>
 		<input type="text" name="nombre"><br>
         </div>
 
+		<div class="grupoInputs">
+		<label for="apellido">Apellido:</label>
+		<input type="text" name="apellido"><br>
+		</div>
+		
 		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
 		<input type="number" name="edad"><br>
