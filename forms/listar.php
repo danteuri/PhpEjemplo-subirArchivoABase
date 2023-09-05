@@ -1,5 +1,5 @@
 <?php
-include '../index.php';
+include '../code/menu.php';
 ?>
 <html lang="es">
 	<head>
@@ -7,7 +7,7 @@ include '../index.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario de Altas</title>
 	<link rel="stylesheet" href="../css/menu.css">
-	<link rel="stylesheet" href="respuestas.css">
+	<link rel="stylesheet" href="../css/respuestas.css">
 	</head>
 	<body>
 	<h3 class="tablatitulo">LISTADO DE LOS REGISTRO DE LA TABLA</h3>

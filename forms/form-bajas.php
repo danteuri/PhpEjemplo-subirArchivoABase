@@ -1,5 +1,5 @@
 <?php
-include '../index.php';
+include '../code/menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -7,7 +7,7 @@ include '../index.php';
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario de Bajas</title>
-	<link rel="stylesheet" href="/css/altaBajaModificacion.css">
+	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
 	<link rel="stylesheet" href="../css/menu.css">
 </head>
 <body>

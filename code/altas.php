@@ -3,10 +3,10 @@
 
 <?php 
 
-include '../index.php';
+include 'menu.php';
 
 $ape = $_POST['apellido'];
-$nom = $_POST['nombre'];
+$nom = $_POST['nombre']; 
 $ed = $_POST['edad'];
 $foto = $_FILES["foto"]["tmp_name"];
 $fotoTamanio = $_FILES["foto"]["size"];
@@ -43,6 +43,6 @@ print "No se puede subir el archivo";
  ?>
 <html lang="es">
 	<head>
-	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="/css/formAltas.css">
 	</head>
 </html>
