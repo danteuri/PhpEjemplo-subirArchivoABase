@@ -7,7 +7,7 @@ body{
 .header{
     display: flex;
     flex-direction: column;
-    background-color: rgb(182, 42, 42);
+    background-color: #77dd77;
     height: 120px;
 }
 
@@ -19,13 +19,14 @@ body{
 .menu{
     display: flex;
     justify-content: space-around;
+    font-style: italic;
 }
 
 .menu a{
     text-decoration: none;
     padding: 10px;
     color: rgb(19, 7, 7);
-    background-color: rgba(162, 219, 70, 0.123);
+    background-color: #fdcae1;
     margin: 10px;
     border-radius: 1cm;
 }
