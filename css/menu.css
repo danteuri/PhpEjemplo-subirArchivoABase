@@ -25,8 +25,9 @@ body{
     text-decoration: none;
     padding: 10px;
     color: rgb(19, 7, 7);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(162, 219, 70, 0.123);
     margin: 10px;
+    border-radius: 1cm;
 }
 
 .menu a:hover{
