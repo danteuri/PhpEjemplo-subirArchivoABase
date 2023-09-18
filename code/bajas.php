@@ -11,7 +11,7 @@
 include 'menu.php';
 
 
-$ape = $_POST['apellido'];
+$id = $_POST['id'];
 
 $base = "gestion_s";
 $Conexion =  mysqli_connect("localhost","root","",$base);
@@ -22,7 +22,7 @@ if($Conexion){
 	echo "la conexion ha fallado "."<br>";
 }
 
-$cadena= "DELETE FROM persona  WHERE apellido = '$ape'";  
+$cadena= "DELETE FROM persona  WHERE id = '$id'";  
 
 $resultado = mysqli_query($Conexion,$cadena);
 
