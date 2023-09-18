@@ -7,20 +7,21 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #77dd77;
-    background-color: #77dd77;
     height: 120px;
     background-image: url("header2.png");
 }
 
 .titulo{
     text-align: center;
+    font-size: xx-large;
+    min-height: 0%;
     color: rgb(3, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .menu{
     display: flex;
     justify-content: space-around;
-    font-style: italic;
 }
 
 .menu a{
@@ -28,11 +29,9 @@ body{
     text-transform: initial;
     padding: 10px;
     color: rgb(19, 7, 7);
-    background-color: #fdcae1;
     margin: 10px;
     border-radius: 1cm;
-    background-color: rgb(226, 121, 24);
-    background-color: #fdcae1;
+    background-color: rgba(151, 255, 250, 0.82);
     margin: 10px;
     border-radius: 1cm;
 }
