@@ -1,5 +1,41 @@
 .container{
-    margin: 50px;
+    margin: 100px;
     display: flex;
     flex-direction: column;
+    background-image: url("head213.jpg");
+    padding: 5%;
+    outline-color: rgb(0, 0, 0);
+}
+.altaTitulo{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+
+.altaInput{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    min-height: 0%;
+    
+}
+
+.grupoInputs{
+    width: 50%;
+    margin: 10px;
+}
+
+.grupoInputs input{
+    width: 70%;
+}
+
+.grupoInputs label{
+    padding: 10px;
+}
+
+.btn-submit{
+    width: 20%;
+    align-self:flex-end;
 }
