@@ -2,28 +2,12 @@ body{
     width: 100%;
     height: 100vh;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-<<<<<<< Updated upstream
 }
-=======
-<<<<<<< HEAD
-    font-family: sans-serif;
-  }
-=======
-}
->>>>>>> 05a33ca29fc0392f65a37d2e0721f713abc42c3c
->>>>>>> Stashed changes
-
 .header{
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
     background-color: #77dd77;
-=======
-<<<<<<< HEAD
-=======
     background-color: #77dd77;
->>>>>>> 05a33ca29fc0392f65a37d2e0721f713abc42c3c
->>>>>>> Stashed changes
     height: 120px;
     background-image: url("header2.png");
 }
@@ -44,23 +28,16 @@ body{
     text-transform: initial;
     padding: 10px;
     color: rgb(19, 7, 7);
-<<<<<<< Updated upstream
     background-color: #fdcae1;
     margin: 10px;
     border-radius: 1cm;
-=======
-<<<<<<< HEAD
     background-color: rgb(226, 121, 24);
-=======
     background-color: #fdcae1;
     margin: 10px;
     border-radius: 1cm;
->>>>>>> 05a33ca29fc0392f65a37d2e0721f713abc42c3c
->>>>>>> Stashed changes
 }
 
 .menu a:hover{
     border: rgb(56, 55, 55);
     background-color: rgb(75, 90, 85);
-    color: white;
 }
