@@ -16,10 +16,10 @@ include '../code/menu.php';
 		<caption class="ttitulo">Lista de usuarios</caption>
 		<thead class="ttitulo">
 			<tr>
-			<th>Nombre</th>
-			<th>Apellido</th>
-			<th>Edad</th>
 			<th>ID</th>
+			<th>Apellido</th>
+			<th>Nombre</th>
+			<th>Edad</th>
 			<th>Foto</th>
 			</tr>
 		</thead>

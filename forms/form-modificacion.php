@@ -9,7 +9,6 @@ include '../code/menu.php';
 	<title>Formulario de Modificacion</title>
 	<link rel="stylesheet" href="../css/menu.css">
 	<link rel="stylesheet" href="../css/altaBajaModificacion.css">
-	<link rel="stylesheet" href="../css/menu.css">
 	<!-- <link rel="stylesheet" href="../css/menu.css"> PUEDE QUE ME EQUIVOQUE AL QUITARLO NO SE AUN 
 	SON LAS 11:52PM Y LLEVO DESDE Q LLEGUE A MI CASA HACIENDO ESTO :<-->
 </head>

@@ -40,6 +40,6 @@ print "No se puede subir el archivo";
  ?>
 <html lang="es">
 	<head>
-	<link rel="stylesheet" href="/css/formAltas.css">
+	<link rel="stylesheet" href="../forms/form-altas.php">
 	</head>
 </html>
