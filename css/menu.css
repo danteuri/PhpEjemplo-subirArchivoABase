@@ -1,12 +1,10 @@
 body{
-    background-image: url("omagad.jpg");
-    max-width: 100%;
-    height: auto;
+    background-color: aliceblue;
 }
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #9ed39e;
+    background-color: darkcyan;
     height: 120px;
 }
 
