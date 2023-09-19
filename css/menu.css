@@ -1,11 +1,13 @@
 body{
+    background-image: url("omagad.jpg");
+    max-width: 100%;
+    height: auto;
 }
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #77dd77;
+    background-color: #9ed39e;
     height: 120px;
-    background-image: url("header2.png");
 }
 
 .titulo{
