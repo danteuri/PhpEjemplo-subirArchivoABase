@@ -23,7 +23,7 @@ if($foto != "none")
 	$base = "gestion_s";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
-$cadena= "INSERT INTO persona(apellido, nombre, usu, edad, foto) VALUES ('$ape','$nom', '$usu' ,'$ed','$contenido')";
+$cadena= "INSERT INTO persona(apellido, nombre, usuario, edad, foto) VALUES ('$ape','$nom', '$usu' ,'$ed','$contenido')";
 
 $resultado = mysqli_query($Conexion,$cadena);
 

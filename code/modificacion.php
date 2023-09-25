@@ -11,6 +11,7 @@ include 'menu.php';
 
 $ape = $_POST['apellido'];
 $id = $_POST['id'];
+$usu = $_POST['usuario'];
 $nom = $_POST['nombre'];
 $ed = $_POST['edad'];
 $foto = $_FILES["foto"]["tmp_name"];
@@ -32,7 +33,7 @@ if($Conexion){
 	echo "la conexion ha fallado "."<br>";
 }
 }
-$cadena = "UPDATE  persona SET nombre = '$nom', apellido = '$ape', edad = '$ed', foto = '$contenido' WHERE id = '$id' ";
+$cadena = "UPDATE  persona SET nombre = '$nom', apellido = '$ape', usuario = '$usu', edad = '$ed', foto = '$contenido' WHERE id = '$id' ";
 
 $resultado = mysqli_query($Conexion,$cadena);
 
