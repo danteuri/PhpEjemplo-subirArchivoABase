@@ -2,7 +2,7 @@
     margin: 100px;
     display: flex;
     flex-direction: column;
-    background-image: url("head213.jpg");
+    background-color: beige;
     padding: 1%;
     outline-color: rgb(0, 0, 0);
 }

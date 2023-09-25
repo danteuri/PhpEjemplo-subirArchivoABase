@@ -1,11 +1,11 @@
 body{
+    background-color: aliceblue;
 }
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #77dd77;
+    background-color: darkcyan;
     height: 120px;
-    background-image: url("header2.png");
 }
 
 .titulo{
