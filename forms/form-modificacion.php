@@ -18,7 +18,7 @@ include '../code/menu.php';
 	<h3 class="altaTitulo">FORMULARIO DE MODIFICACION</h3>
 	<form class="altaInput" action="../code/modificacion.php" method="POST" enctype="multipart/form-data">
 	<div class="grupoInputs">
-		<label for="id">Campo Clave ID:</label>
+		<label for="id">Campo Clave ID:</label><br>
 		<input type="text" name="id"><br>	
     </div>
 

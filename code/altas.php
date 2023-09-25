@@ -13,12 +13,13 @@ $fotoTamanio = $_FILES["foto"]["size"];
 
 echo "<h3>".$ape."</h3>". "<h3>".$nom."</h3>". "<h3>".$ed."</h3>";
 
-if($foto != "none")
+/*if($foto != "none")
 {
 	$fp = fopen($foto,"rb");
 	$contenido = fread($fp,$fotoTamanio);
 	$contenido = addslashes($contenido);
 	fclose($fp);
+	var_dump($fp);
 
 	$base = "gestion_s";
 $Conexion =  mysqli_connect("localhost","root","",$base);
@@ -37,7 +38,18 @@ if($resultado){
 }
 else
 print "No se puede subir el archivo";
+*/
+$base = "gestion_s";
+$Conexion =  mysqli_connect("localhost","root","",$base);
 
+
+if($foto != "none"){
+	$fp = fopen($foto,"rb");
+	$contenido = fread($fp,$fotoTamanio);
+	$contenido = addslashes($contenido);
+	fclose($fp);
+	var_dump($fp);
+}
  ?>
 <html lang="es">
 	<head>

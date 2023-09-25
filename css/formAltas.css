@@ -1,10 +1,11 @@
 .container{
-    margin: 200px;
     display: flex;
     flex-direction: column;
     background-color: darkcyan; 
     padding: 5%;
+    
     outline-color: rgb(0, 0, 0);
+    font-weight: 100;
 }
 
 .altaTitulo{
