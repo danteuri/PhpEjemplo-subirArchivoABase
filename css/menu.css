@@ -28,7 +28,7 @@ body{
     color: rgb(19, 7, 7);
     margin: 10px;
     border-radius: 1cm;
-    background-color: rgba(151, 255, 250, 0.82);
+    background-color: hwb(177 59% 0% / 0.82);
     margin: 10px;
     border-radius: 1cm;
 }

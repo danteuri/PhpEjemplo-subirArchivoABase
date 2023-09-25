@@ -4,6 +4,7 @@ include 'menu.php';
 
 $ape = $_POST['apellido'];
 $nom = $_POST['nombre']; 
+$usu = $_POST['usuario'];
 $ed = $_POST['edad'];
 $foto = $_FILES["foto"]["tmp_name"];
 $fotoTamanio = $_FILES["foto"]["size"];
@@ -22,7 +23,7 @@ if($foto != "none")
 	$base = "gestion_s";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
-$cadena= "INSERT INTO persona(apellido, nombre, edad, foto) VALUES ('$ape','$nom','$ed','$contenido')";
+$cadena= "INSERT INTO persona(apellido, nombre, usu, edad, foto) VALUES ('$ape','$nom', '$usu' ,'$ed','$contenido')";
 
 $resultado = mysqli_query($Conexion,$cadena);
 

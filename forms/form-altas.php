@@ -21,6 +21,11 @@ include '../code/menu.php';
         </div>
 
 		<div class="grupoInputs">
+		<label for="usuario">Nombre de Usuario</label><br>
+		<input type="text" name="usuario">
+		</div>
+
+		<div class="grupoInputs">
 		<label for="apellido">Apellido:</label><br>
 		<input type="text" name="apellido"><br>
 		</div>

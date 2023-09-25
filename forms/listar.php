@@ -19,8 +19,8 @@ include '../code/menu.php';
 			<th>ID</th>
 			<th>Apellido</th>
 			<th>Nombre</th>
-			<th>Edad</th>
-			<th>Foto</th>
+			<th>Usuario</th>
+			<th>edad</th>
 			</tr>
 		</thead>
 	<?php 
@@ -34,7 +34,7 @@ $consulta = mysqli_query($Conexion,$cadena);
 
 while(  $registro = mysqli_fetch_row($consulta)   ){
 	echo "<tr class='trmain'>";
-	echo "<th>".$registro[0]."</th><th>".$registro[1]."</th><th>".$registro[2]."</th><th>".$registro[3]."</th><th><img src='data:image/jpeg;base64,".base64_encode($registro[4])."' width='64px'/></th>";
+	echo "<th>".$registro[0]."<th>".$registro[1]."</th><th>".$registro[2]."</th><th>".$registro[3]."</th><th>".$registro[4]."</th><th><img src='data:image/jpeg;base64,".base64_encode($registro[5])."' width='64px'/></th>";
 	echo "</tr>";
 }
  ?>

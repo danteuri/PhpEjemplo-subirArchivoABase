@@ -2,10 +2,12 @@
     border: 1px solid rgb(16, 15, 15);
     width: 80%;
     margin-left: 10%;
+    background-color: hwb(177 59% 0% / 0.82);
 }
 
 .tablatitulo{
     text-align: center;
+    
 }
 
 .ttitulo{
