@@ -20,7 +20,8 @@ include '../code/menu.php';
 			<th>Apellido</th>
 			<th>Nombre</th>
 			<th>Usuario</th>
-			<th>edad</th>
+			<th>Edad</th>
+			<th>Foto</th>
 			</tr>
 		</thead>
 	<?php 
@@ -32,7 +33,7 @@ $cadena= "SELECT * FROM persona ";
 
 $consulta = mysqli_query($Conexion,$cadena);
 
-while(  $registro = mysqli_fetch_row($consulta)   ){
+while($registro = mysqli_fetch_row($consulta)){
 	echo "<tr class='trmain'>";
 	echo "<th>".$registro[0]."<th>".$registro[1]."</th><th>".$registro[2]."</th><th>".$registro[3]."</th><th>".$registro[4]."</th><th><img src='data:image/jpeg;base64,".base64_encode($registro[5])."' width='64px'/></th>";
 	echo "</tr>";
