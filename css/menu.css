@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(161, 26, 26);
 }
 .header{
     display: flex;
@@ -30,9 +30,14 @@ body{
     border-radius: 1cm;
     background-color: hwb(177 59% 0% / 0.82);
     margin: 10px;
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
 }
 
 .menu a:hover{
+    color: aliceblue;
     border: rgb(56, 55, 55);
     background-color: rgb(75, 90, 85);
+    transition: background-color 0.50s;
 }

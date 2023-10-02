@@ -2,9 +2,10 @@
     margin: 100px;
     display: flex;
     flex-direction: column;
-    background-color: darkcyan;
+    background-color: rgb(185, 255, 255);
     padding: 1%;
     outline-color: rgb(0, 0, 0);
+    border-color: blueviolet;
 }
 .altaTitulo{
     text-align: center;
@@ -25,6 +26,8 @@
 .grupoInputs{
     width: 50%;
     margin: 10px;
+    flex: content;
+    -ms-flex-align: center;
 }
 
 .grupoInputs input{

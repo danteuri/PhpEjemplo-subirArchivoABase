@@ -37,12 +37,16 @@ include '../code/menu.php';
 
 		<div class="grupoInputs">
 		<label for="foto">Archivo:</label><br>
-		<input type="file" name="foto" value="Foto"><br>
 	    </div>
 
-		<div class="btn-submit">
+		<!-- <input type="file" name="foto" value="Foto" class="grupo"><br> -->
+		<div class="grupoInputs">
 		<input type="submit" value="Grabar"><br>
 	    </div>
+
+		<div>
+		<p>AVISO: Hasta nuevo anuncio se requerira obligatoriamente una foto de usuario o la alta del formulario no sera completada y guardada en la base de datos</p>
+		</div>
 	</form>
 </div>
 	
