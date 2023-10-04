@@ -52,9 +52,9 @@ if ($foto != "none") {
 	}
 	
 	$cadena= "INSERT INTO persona(apellido, nombre, usuario, edad, foto) VALUES ('$ape','$nom', '$usu' ,'$ed','$contenido')";
-
+	$resultado = mysqli_query($Conexion,$cadena);
 	
-	try {
+	/*try {
 		$resultado = mysqli_query($Conexion,$cadena);
 		if ($resultado) {
 			return true;
@@ -62,22 +62,19 @@ if ($foto != "none") {
 		else{
 			return false;
 		}
-	}catch(Exception $ex){
+	}catch(Exception $e){
 		return substr($e, 22, 41);
 		echo "no se puedo hacer la alta al usuario correctamente";
-	}
-
+	}*/
 	if($resultado){
 		print "se ha insertado un registro"."<br>";
 	}else{
 		print "NO se ha generado un registro"."<br>";
+		echo mysqli_error($Conexion);
 	}
 	
 	echo "<h3>".$ape."</h3>". "<h3>".$nom."</h3>". "<h3>".$ed."</h3>";
 
-}
-else{
-	print "No se pudo";
 }
 
  ?>

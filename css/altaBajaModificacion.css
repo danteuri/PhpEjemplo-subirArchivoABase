@@ -1,10 +1,13 @@
 .container{
-    margin: 100px;
     display: flex;
     flex-direction: column;
     background-color: rgb(185, 255, 255);
-    padding: 1%;
+    padding: 20px;
+    margin: 0 auto;
     outline-color: rgb(0, 0, 0);
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 8px solid rgb(101, 111, 250);
 }
 .altaTitulo{
     text-align: center;
@@ -28,7 +31,8 @@
 }
 
 .grupoInputs input{
-    width: 70%;
+    background-color: rgb(111, 209, 209);;
+    overflow: hidden;
 }
 
 .grupoInputs label{
@@ -39,3 +43,8 @@
     width: 20%;
     align-self:flex-end;
 }
+
+.grupo2{
+    width: 132px;
+}
+

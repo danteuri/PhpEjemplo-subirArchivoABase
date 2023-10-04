@@ -42,7 +42,7 @@ include '../code/menu.php';
 
 		<!-- <input type="file" name="foto" value="Foto" class="grupo"><br> -->
 		<div class="grupoInputs">
-		<input type="submit" value="Grabar"><br>
+		<input type="submit" value="Grabar" class="grupo"><br>
 	    </div>
 
 		<div>
